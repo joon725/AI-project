@@ -9,7 +9,8 @@
 
 ### 1. train.py
 
-#### 1. command : python train.py --config ./cfg/train.yaml 
+#### 1. command : 
+### python train.py --config ./cfg/train.yaml 
 #### 2. configuration file location - ./cfg/train.yaml
 
 ##### ## details about train.yaml ##
@@ -151,7 +152,10 @@ save_dir/name
 
 ### 3. predict.py
 
-#### 1. command : python predict.py --config ./cfg/predict.yaml --data_path {data_path} --save_dir {save_dir} --weight_path {weight_path} --name {name}
+#### 1. command : 
+''' shell script
+python predict.py --config ./cfg/predict.yaml --data_path {data_path} --save_dir {save_dir} --weight_path {weight_path} --name {name}
+'''
 
 #### 2. argument details
 ##### 2.1. config
