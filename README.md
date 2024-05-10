@@ -10,7 +10,9 @@
 ### 1. train.py
 
 #### 1. command : 
-### python train.py --config ./cfg/train.yaml 
+``` shell script
+python train.py --config ./cfg/train.yaml 
+```
 #### 2. configuration file location - ./cfg/train.yaml
 
 ##### ## details about train.yaml ##
