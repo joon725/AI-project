@@ -76,7 +76,8 @@
 2.8.2. "name" is a folder name where the dataset is saved
 final directory where the dataset is saved : save_dir/name/
 
-#### 3. output : best.pt, last.pt, log.pkl, loss.py, model.py result.csv, result.log, train.py, train.yaml, training_plot.png, figures of samples(optional)
+#### 3. output : 
+best.pt, last.pt, log.pkl, loss.py, model.py result.csv, result.log, train.py, train.yaml, training_plot.png, figures of samples(optional)
 
 
 ### 2. tune.py
