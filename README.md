@@ -42,9 +42,9 @@
 2.5.1. "model_name" is a name of a model you're going to use for training. You can choose "cnn-lstm" or "vivit" or "3d-cnn".
 
 2.5.2. "hidden_dim" is 
-cnn-lstm : dimension of a linear layer in cnn layer and two linear layers in dnn layer.
-3d-cnn : dimension of three linear layers in dnn layer
-vivit : not used
+* cnn-lstm : dimension of a linear layer in cnn layer and two linear layers in dnn layer.
+* 3d-cnn : dimension of three linear layers in dnn layer
+* vivit : not used
 
 2.5.3. "drop_rate" is a drop rate of your model layers while training.
 
