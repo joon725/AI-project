@@ -25,7 +25,7 @@
 
 2.2.3. "sequence" is a length of a time-series data.
 
-###### 2.3. training setting
+##### 2.3. training setting
 2.3.1. "weight_decay" is a hyperparameter for L2 Regularization. The regularization is used to prevent overfitting.
 
 2.3.2. "lr" is a learning rate of your training.
