@@ -12,7 +12,7 @@
 #### 1. command : python train.py --config ./cfg/train.yaml 
 #### 2. configuration file location - ./cfg/train.yaml
 
-##### ############# details about train.yaml #############
+##### ## details about train.yaml ##
 ##### 2.1. environment setting
 2.1.1. "random_state" is random seed setting for randomization.
 
