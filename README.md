@@ -85,7 +85,7 @@ best.pt, last.pt, log.pkl, loss.py, model.py result.csv, result.log, train.py, t
 #### 1. command : python tune.py --config ./cfg/tune.yaml 
 #### 2. configuration file location - ./cfg/tune.yaml
 
-##### ############# details about tune.yaml #############
+##### ## details about tune.yaml #############
 ##### 2.1. random_state
 2.1.1. "random_state" is random seed setting for randomization.
 
@@ -107,7 +107,7 @@ best.pt, last.pt, log.pkl, loss.py, model.py result.csv, result.log, train.py, t
 ##### 2.3. training setting
 2.3.1. "batch_size" is a batch size of input data.
 
-2.3.2. "shuffle" is used to shuffle dataset when loading the dataset. When it is set to True, the argument is conveyed to dataloader to shuffle a dataset.
+2.3.2. "shuffle" is used to shuffle dataset when loading a dataset. When it is set to True, the argument is conveyed to dataloader to shuffle the dataset.
 
 ##### 2.4. model
 2.4.1. "model_name" is a name of a model you're going to use for training. You can choose "cnn-lstm" or "vivit" or "3d-cnn".
@@ -144,7 +144,7 @@ save_dir/name
          
 * To identify the hyperparameters for the best results, you should check result.log
 - In result.log, there are "best score", "best hyperparameters", "best log dir" for four metrics, "val_loss", "val_accuracy", "test_loss", "test_accuracy".
-- You can choose which metric to focus, and use the "best hyperparameters" and weights in "best log dir" for that metric. 
+- You can choose which metric to focus, and use the "best hyperparameters" and weights in "best log dir" for the metric. 
 
 
 ### 3. predict.py
