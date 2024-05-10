@@ -129,6 +129,7 @@ best.pt, last.pt, log.pkl, loss.py, model.py result.csv, result.log, train.py, t
 final directory where the dataset is saved : save_dir/name/
 
 #### 3. output : the outputs are described below.
+```
 save_dir/name                                  
 ├── loss.py 
 ├── model.py
@@ -141,6 +142,7 @@ save_dir/name
     ├── experiment_state-{yyyy-mm-dd_hh-mm-ss}.json                         
     ├── basic-variant-state-{yyyy-mm-dd_hh-mm-ss}.json                         
     ├── (trial folders)                                                 
+```
          
 * To identify the hyperparameters for the best results, you should check result.log
 - In result.log, there are "best score", "best hyperparameters", "best log dir" for four metrics, "val_loss", "val_accuracy", "test_loss", "test_accuracy".
